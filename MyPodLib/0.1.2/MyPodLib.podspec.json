@@ -16,7 +16,7 @@
   "platforms": {
     "ios":"6.1"  
   },
-  "source_files":"MyPodLib/**/*.{h,m}",
-  "resources":"MyPodLib/**/*.{png}",
+  "source_files":"Pod/Classes",
+  "resources":"Pod/Asserts/*",
   "requires_arc":true
 }
