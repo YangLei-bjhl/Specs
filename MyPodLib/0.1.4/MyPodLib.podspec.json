@@ -23,7 +23,7 @@
   'subspecs':[
     {
       'name':'network',
-      'source_files', 'core/network/*'
+      'source_files': 'core/network/*'
     } 
   ]
 }
