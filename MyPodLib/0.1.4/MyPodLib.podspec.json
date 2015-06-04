@@ -18,12 +18,12 @@
   },
   "source_files":"core/*",
   "resources":"Pod/Asserts/*",
-  "requires_arc":true
+  "requires_arc":true,
 
   'subspecs':[
     {
       'name':'network',
-      'source_files': 'core/network/*'
+      'source_files':'core/network/*'
     } 
   ]
 }
