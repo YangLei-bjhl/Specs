@@ -16,7 +16,14 @@
   "platforms": {
     "ios":"6.1"  
   },
-  "source_files":"core/**/*",
+  "source_files":"core/*",
   "resources":"Pod/Asserts/*",
   "requires_arc":true
+
+  'subspecs':[
+    {
+      'name':'network',
+      'source_files', 'core/network/*'
+    } 
+  ]
 }
