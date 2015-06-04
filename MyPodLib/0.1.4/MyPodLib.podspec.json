@@ -1,0 +1,22 @@
+{
+  "name":"MyPodLib",
+  "version":"0.1.4",
+  "license":"MIT",
+  "summary":"My test lib",
+  "homepage":"https://github.com/YangLei-bjhl/MyPodLib",
+  "authors": {
+    "yanglei": "yanglei@baijiahulian.com"  
+  },
+
+  "source":{
+    "git":"https://github.com/YangLei-bjhl/MyPodLib.git",
+    "tag":"0.1.4"
+  },
+  
+  "platforms": {
+    "ios":"6.1"  
+  },
+  "source_files":"core/**/*",
+  "resources":"Pod/Asserts/*",
+  "requires_arc":true
+}
