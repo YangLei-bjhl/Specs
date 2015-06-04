@@ -20,10 +20,10 @@
   "resources":"Pod/Asserts/*",
   "requires_arc":true,
 
-  'subspecs':[
+  "subspecs":[
     {
-      'name':'network',
-      'source_files':'core/network/*'
+      "name":"network",
+      "source_files":"core/network/*"
     } 
   ]
 }
